@@ -1,0 +1,32 @@
+body {
+    padding: 2rem;
+}
+.container {
+    background-image: url(/img/kelly-sikkema-HHtzGcZkRZY-unsplash.jpg);
+    background-size: cover;
+    border-radius: 8px;
+}
+form {
+    text-align: center;
+    padding: 10%;
+}
+.contactanos {
+    padding: 10%;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    color: #181823;
+}
+::placeholder {
+    color: #181823;
+    font-family: 'Poppins', sans-serif;
+}
+@media (min-width:320px) {
+   .contactanos {
+    color: aliceblue;
+    font-size: x-large;
+   }
+    .container {
+    width: fit-content;
+    }
+}
